@@ -9,7 +9,7 @@ h1{
 h2{
     font-size: 35px;
 }
-.name-hightlight{
+.orange-hightlight{
     color: orange;
 }
 .half-width{
@@ -39,4 +39,26 @@ section{
 }
 .dream-area{
     background-image: url("image/dream-bg.png");
+}
+.experience-area{
+    background-image: url("/image/exp-bg.png");
+}
+.single-experience{
+    box-shadow: 10px 10px 40px rgb(232, 232, 232);
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
+}
+#become-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg , lightsalmon , tomato);
+    border-image-slice: 1;
+}
+#dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg , blue , cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
